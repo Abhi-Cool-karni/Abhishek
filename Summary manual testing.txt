@@ -1,0 +1,7 @@
+Conducting testing on all testing stages as part of regular SLDC
+Identification of test requirements based on business requirements
+Defect management with Jira
+Test design for automation; testing documentation creation and maintenance;
+Coordinating with multiple departments for resolving issues faced during integration
+Regression testing, smoke testing, integration testing, acceptance testing
+Delivered quality software through quality control test reports, determining software quality and readiness for release.

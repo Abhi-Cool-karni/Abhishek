@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+hr {
+  width: 100%;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Barlow Condensed", sans-serif;
+  word-spacing: 7px;
+}
+
+h3 {
+  color: #fff;
+  margin: 0 0 10px 0;
+  text-decoration: underline;
+}
+
+img {
+  filter: invert(1);
+}
+
+.personal_details,
+footer {
+  width: 100%;
+  height: 95px;
+  color: #fff;
+  background: #1f4e79;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/* .menu {
+  width: 100%;
+  height: 20px;
+  margin: 7px 0;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+} */
+
+.contact {
+  display: flex;
+  align-self: center;
+  width: 100%;
+  margin: 5px 0;
+}
+.contact-details {
+  color: #fff;
+}
+/* .menu-list {
+  padding: 4px 13px;
+  color: #fff;
+  border-radius: 24px;
+  border: 1px solid #ffffff85;
+} */
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: blue;
+}
+
+/* CV highlights */
+
+section {
+  display: block;
+  width: 100%;
+  padding: 12.7px;
+  background: #5d7e9e;
+}
+
+li {
+  margin: 5px 35px;
+}
+
+/* Experience */
+h4,
+p {
+  color: #fff;
+}
+
+/* Education */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #fff;
+}
+th,
+td {
+  border: 2px solid #bbd0e4;
+  padding: 4.5px;
+  text-align: left;
+}
+
+/* Top button */
+#top-div {
+  width: 45px;
+  height: 45px;
+  bottom: 10px;
+  right: 10px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #af3db3;
+  border-radius: 50%;
+}
+svg {
+  filter: invert(1);
+}
+#top-div:hover {
+  background: #3a5a77;
+}
+
+/* list items */
+ul {
+  background: #bbd0e4;
+  border-radius: 5px;
+}
+
+/* Footer */
+footer {
+  height: 40px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.flink {
+  margin: 0 20px;
+}
+
+/* Certificate download */
+.certifiacte-download {
+  filter: invert(0);
+  width: 15px;
+  /* margin: .5px; */
+}
+
+.checked {
+  color: #ff920d;
+}
