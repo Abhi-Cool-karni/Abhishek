@@ -27,7 +27,7 @@ img {
   filter: invert(1);
 }
 
-.personal_details{
+.personal_details {
   height: 121px;
 }
 
@@ -55,6 +55,7 @@ footer {
 .contact {
   display: flex;
   align-self: center;
+  justify-content: center;
   width: 100%;
   margin: 5px 0;
 }
@@ -114,6 +115,11 @@ td {
   text-align: left;
 }
 
+/* Tables stars */
+.stars {
+  display: inline;
+}
+
 /* Top button */
 #top-div {
   width: 45px;
@@ -160,4 +166,82 @@ footer {
 
 .checked {
   color: #ff920d;
+}
+
+/* Mobile responsive  */
+
+@media only screen and (max-width: 770px) {
+  * {
+    flex-wrap: wrap;
+    width: auto;
+  }
+
+  .menu,
+  .name_address {
+    font-size: 0.6em;
+  }
+
+  .menu {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+  .menu-list {
+    margin: 0.2em;
+  }
+  .flink {
+    margin: 0 20px;
+  }
+
+  .flink > img {
+    width: 15px;
+  }
+
+  img {
+    width: 8px;
+  }
+
+  ul {
+    margin: 3px;
+  }
+
+  li {
+    margin: 0 31px;
+  }
+
+  span {
+    display: flex;
+    flex-direction: row;
+    width: 0.5em;
+    margin: 0 1px;
+  }
+  section {
+    padding: 8.7px;
+  }
+
+  table {
+    font-size: small;
+    letter-spacing: 0.5px;
+  }
+
+  #top-div {
+    padding: 0.2em 0.4em;
+    width: 30px;
+    height: 30px;
+  }
+
+  #top > svg {
+    width: 0.9em;
+    position: relative;
+    left: 2px;
+    top: 1px;
+  }
+
+  .list-items > tr > td {
+    display: flex;
+  }
 }
