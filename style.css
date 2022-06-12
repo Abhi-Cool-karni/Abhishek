@@ -190,9 +190,11 @@ footer {
     margin: 0;
     padding: 0;
   }
+  
   .menu-list {
     margin: 0.2em;
   }
+  
   .flink {
     margin: 0 20px;
   }
@@ -207,6 +209,7 @@ footer {
 
   ul {
     margin: 3px;
+    font-size: small;
   }
 
   li {
@@ -219,6 +222,7 @@ footer {
     width: 0.5em;
     margin: 0 1px;
   }
+  
   section {
     padding: 8.7px;
   }
