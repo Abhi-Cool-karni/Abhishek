@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #000;
 }
 
 hr {
@@ -54,7 +55,7 @@ footer {
   margin: 5px 0;
 }
 
-.contact-details,
+/* .contact-details,
 .menu-list,
 h4,
 h3,
@@ -65,7 +66,7 @@ img,
 svg,
 ul {
   color: #000;
-}
+} */
 
 .menu-list {
   padding: 4px 13px;
@@ -161,6 +162,10 @@ footer {
   color: #ff920d;
 }
 
+img{
+ filter: invert(1); 
+}
+
 /* Mobile responsive  */
 
 @media only screen and (max-width: 770px) {
@@ -196,7 +201,6 @@ footer {
 
   img {
     width: 8px;
-    filter: invert(1);
   }
 
   ul {
