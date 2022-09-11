@@ -15,6 +15,7 @@ h1 {
   text-transform: uppercase;
   font-family: "Barlow Condensed", sans-serif;
   word-spacing: 7px;
+  Color: #fff;
 }
 
 h3 {
@@ -195,6 +196,7 @@ footer {
 
   img {
     width: 8px;
+    filter: invert(1);
   }
 
   ul {
